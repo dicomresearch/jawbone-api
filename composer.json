@@ -1,0 +1,26 @@
+{
+    "name": "anchoret/jawbone-api",
+    "description": "Library to work with the Jawbone Up API",
+    "keywords" : ["jawbone", "jawbone up", "jawbone up api"],
+    "type" : "library",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksey Korolev",
+            "email": "koroleffas@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4.0",
+        "mashape/unirest-php": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "JawboneApi": "src/"
+        }
+    },
+    "support" : {
+        "email" : "koroleffas@gmail.com"
+    }
+}
